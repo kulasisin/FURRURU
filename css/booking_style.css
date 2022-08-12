@@ -124,6 +124,7 @@ table {
 }
 html {
   height: 100%;
+  background: linear-gradient(-37deg, #ffffbd, #ffad92);
 }
 body {
   font-family: Microsoft JhengHeiArial, Helvetica, sans-serif;
@@ -258,7 +259,6 @@ body {
   margin: 0 auto;
 }
 .banner {
-  background: linear-gradient(-37deg, #ffffbd, #ffad92);
   margin: 0 auto;
   width: auto;
 }
@@ -412,7 +412,6 @@ body {
   }
   .banner {
     width: auto;
-    height: 1000px;
   }
   .banner .container {
     flex-direction: column;
