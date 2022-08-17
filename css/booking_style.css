@@ -124,7 +124,6 @@ table {
 }
 html {
   height: 100%;
-  background: linear-gradient(-37deg, #ffffbd, #ffad92);
 }
 body {
   font-family: Microsoft JhengHeiArial, Helvetica, sans-serif;
@@ -405,6 +404,10 @@ body {
 }
 .calendar--days span.start.end:after {
   display: none;
+}
+.banner {
+  background: linear-gradient(-37deg, #ffffbd, #ffad92);
+  background-repeat: no-repeat;
 }
 @media (max-width: 576px) {
   .calendar {
